@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Landing Page</title>
 </head>
 <body>
@@ -16,57 +18,270 @@
                 src="pics/echologo3.png"
                 alt=""
                 />
-                <p class="logo-name city-nights-effect">ECH()CREATIONS</p>
+                <p class="logo-name city-nights-effect">ECH()CREATIONS;</p>
             </div>
             <nav>
                 <ul class="navbar">
-                    <li data-color="#5B180F"><a href="#">Home</a></li>
-                    <li data-color="#75251C"><a href="#">About Me</a></li>
-                    <li data-color="#8F3F2D"><a href="#">Education</a></li>
-                    <li data-color="#AA4942"><a href="#">Experience</a></li>
-                    <li data-color="#C4615B"><a href="#">Skills</a></li>
-                    <li data-color="#DE7C78"><a href="#">Projects</a></li>
-                    <li data-color="#F99B99"><a href="#">Contact Me</a></li>
+                    <li data-color="#5B180F"><a href="#home" class="active">🏠 Home</a></li>
+                    <li data-color="#75251C"><a href="#about-me">🕴🏿 About Me</a></li>
+                    <li data-color="#8F3F2D"><a href="#education">🎓Education</a></li>
+                    <li data-color="#AA4942"><a href="#experience">💼 Experience</a></li>
+                    <li data-color="#C4615B"><a href="#skills">🌟Skills</a></li>
+                    <li data-color="#DE7C78"><a href="#projects">🗃️Projects</a></li>
+                    <li data-color="#F99B99"><a href="#contact">📞Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="center">
-            <div class="left">
-                <p class="hi-there">👋HI THERE</p>
-                <p class="my-name">I'm Jericho <span class="nickname">"Echo"</span> Dizon Tamondong</p>
-                <p class="self-intro">
-                    A third-year IT student majoring in Web Technology and 
-                    <br/>a freelance Visual Content Editor and Social Media Handler.
-                </p>
-                <div class="icons">
-                    <a
-                    href="https://www.facebook.com/Echo.Dizon.Tamondong/"
-                    target="_blank"
-                    class="sm-icon">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                    <a
-                    href="https://www.instagram.com/echotamondong/"
-                    target="_blank"
-                    class="sm-icon">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                    <a
-                    href="https://www.linkedin.com/in/jericho-tamondong-425a96209/"
-                    target="_blank"
-                    class="sm-icon">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                    <a href=""target="_blank"><button>Get to know me more</button></a>
+        <section id="home">
+            <div class="center">
+                <div class="left">
+                    <p class="hi-there">👋HI THERE!</p>
+                    <p class="my-name">I'm Jericho <span class="nickname">"Echo"</span> Dizon Tamondong</p>
+                    <p class="self-intro">
+                        A third-year IT student majoring in Web Technology and a freelance Visual Content Editor/Social Media Handler.
+                    </p>
+                    <div class="icons">
+                        <a
+                        href="https://www.facebook.com/Echo.Dizon.Tamondong/"
+                        target="_blank"
+                        class="sm-icon">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a
+                        href="https://www.instagram.com/echotamondong/"
+                        target="_blank"
+                        class="sm-icon">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a
+                        href="https://www.linkedin.com/in/jericho-tamondong-425a96209/"
+                        target="_blank"
+                        class="sm-icon">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="#about-me"><button>Get to know me 🤝</button></a>
+                    </div>
                 </div>
+                    <div data-aos="zoom-in-left" class="right">
+                        <img class="display-pic" data-aos-delay="10" data-aos-duration="10" src="pics/pogikoh.png" alt=""/>
+                    </div>
             </div>
-                <div class="right">
-                    <img class="display-pic" src="pics/pogikoh.png" alt=""/>
+
+        </section>
+        <section id="about-me"><h2></h2>
+            <div class="container-2">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="pics/myeong.png">
+                  </div>
+                  <div class="content">
+                    <div>
+                      <h3>VISUAL EDITOR</h3>
+                      <p>Passionate about transforming pixels into magical experiences. I enjoy editing photos and videos as a hobby, continually learning web design intricacies, applying my skills to every visual project.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-        </div>
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="pics/pashun.jpg">
+                  </div>
+                  <div class="content">
+                    <div>
+                      <h3>CREATIVE VISIONARY</h3>
+                      <p>My creativity extends beyond pixels. Fashion is my canvas for self-expression, reflecting a unique style and vision. Each outfit is a curated experience, crafted with an unwavering attention to detail. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="pics/gumi.jpg">
+                  </div>
+                  <div class="content">
+                    <div>
+                      <h3>FREELANCER</h3>
+                      <p>I specialize in professional graphic design for clients. My hobby of editing pictures and videos for events started with requests from acquaintances and family and has grown into a valuable service for clients, combining creativity with a personal touch.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="pics/NATURE.png">
+                  </div>
+                  <div class="content">
+                    <div>
+                      <h3>NATURE LOVER</h3>
+                      <p>Inspired by nature's principles, I embrace openness, growth, and purpose, finding calm and profound inspiration. I channel nature's tranquility, infusing purpose into every endeavor.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="education"><h2></h2>
+          <main>
+            <p>University of the Cordilleras 
+            <span class="loc"><br>Gov. Pack Rd, Baguio</span>
+            <br>College (Bachelor of Science in Information Technology)
+            <span class="date"><br>2021- Present</span>
+              </p>
+            <p>University of the Cordilleras 
+              <br>Senior High School (Science, Technology, Engineering and Mathematics - With High Honors)
+              <span class="date"><br>2018- 2020</span>
+                </p>
+            <p>Saint Louis School of Aurora Hill, Inc.
+              <br>Junior High School (Best in English- With Honors)
+              <span class="date"><br>2014- 2018</span>
+                </p>
+            <p>Saint Louis School Center Elementary Department
+              <br>Primary School (O.S. Awardee)
+              <span class="date"><br>2012- 2014</span>
+                </p>
+            <p>Saint Louis University Laboratory Elementary School
+            </br>Gen. Luna Rd, Baguio
+            <span class="date"><br>2008- 2012</span>
+              </p>
+          </main>
+
+        </section>
+        <section id="experience"><h2></h2>
+          <main>
+            <p><span class="date">Graphic Designer/Social Media Manager</span>
+              <span class="loc"><br>City Hub, Leonard Wood Road, Baguio City</span>
+              <br>Strategically plan and execute creative ad campaigns and infographics efficient for a Korean restaurant, overseeing marketing methods from conception to compelling opening advertisements.
+              <br>(August, 2023- Present)
+                </p>
+              <p><span class="date">Data Encoder (Census)</span>
+                <span class="loc"><br>West Modernsite Barangay Hall, Aurora Hill, Baguio City</span>
+                <br>Accurately recorded diverse resident information in the barangay, maintaining professionalism and precision.
+                <br>(January 2021- May 2021)
+                  </p>
+            <p><span class="date">Freelance </span>
+              <br>Freelance specializing in editing videos and pictures for different client and events, restaurants, with additional proficiency in managing Facebook pages and incorporating product promotion within advertisements.
+              <br>(2018-Present)
+          </main>
+
+        </section>
+        <section id="skills">
+          <h2></h2>
+          <div class="skill-container">
+            <ul class="technical-skills">
+              <li><a>✅HTML</a></li>
+              <li><a>✅CSS</a></li>
+              <li><a>✅JavaScript</a></li>
+              <li><a>✅Python</a></li>
+              <li><a>✅PHP</a></li>
+            </ul>
+            <ul class="soft-skills">
+              <li><a>🗣 Communication</a></li>
+              <li><a>💭 Analytical Thinking</a></li>
+              <li><a>🐱‍👤 Adaptability</a></li>
+              <li><a>🏁 Team Player</a></li>
+              <li><a>🤍 Emotional Intelligence</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="projects"><h2></h2>
+          <div class="container-2">
+            <div class="box">
+              <div class="imgBx">
+                <img src="pics/choice1.png">
+              </div>
+              <div class="content">
+                <div>
+                  <h3>PRO CHOICE</h3>
+                  <p>A Filipino client from Dubai, UAE. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="pics/chouce2.png">
+              </div>
+              <div class="content">
+                <div>
+                  <h3>GADGETS</h3>
+                  <p>The goal was to attract more customers through appealing graphics that capture the essence of the business.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="pics/pro.png">
+              </div>
+              <div class="content">
+                <div>
+                  <h3>Logo</h3>
+                  <p>Also served as the page's display picture, which has undoubtedly functioned as a significant identity for the business.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="pics/giveaway.png">
+              </div>
+              <div class="content">
+                <div>
+                  <h3>SOLEACCESS</h3>
+                  <p>An online sneaker store infographic showcasing their first-ever giveaway, serving as a means to attract more customers and foster social media engagement.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="pics/seeyou.png">
+              </div>
+              <div class="content">
+                <div>
+                  <h3>MYEONG DONG</h3>
+                  <p>Infographic for a Korean client opening a new samgyupsal business in the City of Pines.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="pics/myeong.png">
+              </div>
+              <div class="content">
+                <div>
+                  <h3>KOREAN BUFFET</h3>
+                  <p>This was a personal favorite of the Korean client as they would like to emphasize the authentic grilling experience of their place, especially considering that Myeongdong is renowned as a street food haven in Korea.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section id="contact">
+          <div class="contact-container">
+              <div class="c-info">
+                  <p class="info">Contact me:</p>
+                  <p class="contact-info">📞09997702822</p>
+                  <p class="contact-info">📩shinoecho@gmail.com</p>
+              </div>
+          </div>
+      </section>
+      
+        
 
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+
+
 </body>
 </html>
